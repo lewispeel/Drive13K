@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && yarn widget-files && yarn build-widget",
+    "build": "vite build",
+    "release": "yarn build && yarn widget-files && yarn build-widget",
     "build-widget": "apps-tools build-widget ./build/widget",
     "close-app": "apps-tools close-app",
     "install-widget": "apps-tools install-widget",
