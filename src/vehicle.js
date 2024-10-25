@@ -388,7 +388,7 @@ class PlayerVehicle extends Vehicle
 
         // get player input
         let playerInputTurn = keyIsDown('ArrowRight') - keyIsDown('ArrowLeft');
-        let playerInputGas = keyIsDown('ArrowUp');
+        let playerInputGas = true; // keyIsDown('ArrowUp');
         let playerInputBrake = keyIsDown('Space') || keyIsDown('ArrowDown');
     
         if (isUsingGamepad)

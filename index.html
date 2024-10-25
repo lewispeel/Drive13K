@@ -1,45 +1,39 @@
-<!DOCTYPE html><head>
-<meta charset='utf-8'>
-<title>Dr1v3n Wild! 🚗🌴</title>
-<meta name=apple-mobile-web-app-capable content=yes>
-<meta name=mobile-web-app-capable content=yes>
-<link rel=icon type=image/png href=favicon.png?229>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<!DOCTYPE html>
 
-<meta name="twitter:title"       content="Dr1v3n Wild">
-<meta property="og:title"        content="Dr1v3n Wild">
-<meta name="description"         content="Arcade driving with procedural art in a 13 kilobyte package">
-<meta name="twitter:description" content="Arcade driving with procedural art in a 13 kilobyte package">
-<meta property="og:description"  content="Arcade driving with procedural art in a 13 kilobyte package">
-<meta name="twitter:image"       content="https://raw.githubusercontent.com/KilledByAPixel/Drive13K/refs/heads/main/screenshot.png">
-<meta property="og:image"        content="https://raw.githubusercontent.com/KilledByAPixel/Drive13K/refs/heads/main/screenshot.png">
-<meta name="keywords"            content="Driving, Game, Racing, Outrun, Arcade">
-<meta name="twitter:creator"     content="@KilledByAPixel">
-<meta name="twitter:card"        content="summary_large_image">
+<head>
+    <meta charset='utf-8'>
+    <title>Dr1v3n Wild! 🚗🌴</title>
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=mobile-web-app-capable content=yes>
+    <link rel=icon type=image/png href=favicon.png?229>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-</head><body style="background:#000">
-<body>
+</head>
+
+<body style="background:#000">
+
+</body>
+
 <script>
-onerror=(event, source, lineno, colno, error)=>
-{
-    document.body.innerHTML = `<pre style="color:red;font-size:50px;">` + 
-        `${event}\n${source}\nLn ${lineno}, Col ${colno}`; 
-    document.body.style.backgroundColor = '#222';
-}
+    onerror = (event, source, lineno, colno, error) => {
+        document.body.innerHTML = `<pre style="color:red;font-size:50px;">` +
+            `${event}\n${source}\nLn ${lineno}, Col ${colno}`;
+        document.body.style.backgroundColor = '#222';
+    }
 </script>
-<script src=code/debug.js?229></script>
-<script src=code/utilities.js?229></script>
-<script src=code/webgl.js?229></script>
-<script src=code/draw.js?229></script>
-<script src=code/scene.js?229></script>
-<script src=code/track.js?229></script>
-<script src=code/levels.js?229></script>
-<script src=code/trackGen.js?229></script>
-<script src=code/generative.js?229></script>
-<script src=code/input.js?229></script>
-<script src=code/audio.js?229></script>
-<script src=code/sounds.js?229></script>
-<script src=code/vehicle.js?229></script>
-<script src=code/hud.js?229></script>
-<script src=code/game.js?229></script>
-<script src=code/main.js?229></script>
+<script src=src/debug.js?229></script>
+<script src=src/utilities.js?229></script>
+<script src=src/webgl.js?229></script>
+<script src=src/draw.js?229></script>
+<script src=src/scene.js?229></script>
+<script src=src/track.js?229></script>
+<script src=src/levels.js?229></script>
+<script src=src/trackGen.js?229></script>
+<script src=src/generative.js?229></script>
+<script src=src/input.js?229></script>
+<script src=src/audio.js?229></script>
+<script src=src/sounds.js?229></script>
+<script src=src/vehicle.js?229></script>
+<script src=src/hud.js?229></script>
+<script src=src/game.js?229></script>
+<script src=src/main.js?229></script>

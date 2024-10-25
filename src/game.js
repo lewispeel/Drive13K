@@ -132,7 +132,7 @@ function gameUpdateInternal()
     if (titleScreenMode)
     {
         // update title screen
-        if (mouseWasPressed(0) || keyWasPressed('Space') || isUsingGamepad && (gamepadWasPressed(0)||gamepadWasPressed(9)))
+        if (mouseWasPressed(0) || keyWasPressed('Enter') || isUsingGamepad && (gamepadWasPressed(0)||gamepadWasPressed(9)))
         {
             titleScreenMode = 0;
             gameStart();

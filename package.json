@@ -1,0 +1,20 @@
+{
+  "name": "drive",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && yarn widget-files && yarn build-widget",
+    "build-widget": "apps-tools build-widget ./build/widget",
+    "close-app": "apps-tools close-app",
+    "install-widget": "apps-tools install-widget",
+    "launch-app": "apps-tools launch-app",
+    "uninstall-widget": "apps-tools uninstall-widget",
+    "widget-files": "apps-tools widget-files widget.config.cjs"
+  },
+  "devDependencies": {
+    "@sky-uk/apps-toolkit-cli-tools": "^2.1.1",
+    "vite": "^5.4.9"
+  }
+}

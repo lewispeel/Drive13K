@@ -935,10 +935,10 @@ function generateTetures()
     {
         drawSignBackground();
         color(WHITE,1);
-        text('JS',.25,.27,.5,.35,.02,'courier');
-        text('GAMES',.5,.66,.5,.9,.02,'courier');
+        text('GDE',.25,.27,.5,.35,.02,'courier');
+        text('VISION',.5,.66,.5,.9,.02,'courier');
         color(hsl(1,.8, .5),1);
-        text('13K',.67,.27,.5,.5,.02,'courier');
+        text('2024',.67,.27,.5,.5,.02,'courier');
     }
     function drawDwitterSign()
     {
@@ -1079,6 +1079,6 @@ function generateTetures()
         color(hsl(0,0,.8))
         rect();
         color(hsl(.7, .9, .25),1);
-        text('JS-13K',.5,.6,1,.9,.03,'monospace');
+        text('LEW15',.5,.6,1,.9,.03,'monospace');
     }
 }
