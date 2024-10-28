@@ -4,16 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "node build.cjs",
-    "release": "yarn widget-files && yarn build-widget",
-    "build-widget": "apps-tools build-widget ./build/widget",
-    "close-app": "apps-tools close-app",
-    "install-widget": "apps-tools install-widget",
-    "launch-app": "apps-tools launch-app",
-    "uninstall-widget": "apps-tools uninstall-widget",
-    "widget-files": "apps-tools widget-files widget.config.cjs src/*"
-  },
-  "devDependencies": {
-    "@sky-uk/apps-toolkit-cli-tools": "^2.1.1"
+    "build": "node build.cjs"
   }
 }
