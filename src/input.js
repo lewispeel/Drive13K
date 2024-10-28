@@ -173,7 +173,7 @@ function gamepadsUpdate()
                 const wasDown = gamepadIsDown(j,i);
                 data[j] = button.pressed ? wasDown ? 1 : 3 : wasDown ? 4 : 0;
                 dataValue[j] = percent(button.value||0,.1,.9); // apply deadzone
-                isUsingGamepad ||= !i && button.pressed;
+                isUsingGamepad = isUsingGamepad || (!i && button.pressed); // isUsingGamepad ||= !i && button.pressed;
             }
 
             const gamepadDirectionEmulateStick = 1;
