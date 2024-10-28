@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "release": "yarn build && yarn widget-files && yarn build-widget",
+    "build": "node build.cjs",
+    "release": "yarn widget-files && yarn build-widget",
     "build-widget": "apps-tools build-widget ./build/widget",
     "close-app": "apps-tools close-app",
     "install-widget": "apps-tools install-widget",
@@ -15,7 +14,6 @@
     "widget-files": "apps-tools widget-files widget.config.cjs src/*"
   },
   "devDependencies": {
-    "@sky-uk/apps-toolkit-cli-tools": "^2.1.1",
-    "vite": "^5.4.9"
+    "@sky-uk/apps-toolkit-cli-tools": "^2.1.1"
   }
 }

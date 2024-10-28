@@ -29,7 +29,7 @@ Features
 ///////////////////////////////////////////////////
 
 // debug settings
-//devMode = debugInfo = 1
+// devMode = debugInfo = 1
 //soundVolume = 0
 //debugGenerativeCanvas = 1
 //autoPause = 0
